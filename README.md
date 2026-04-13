@@ -24,7 +24,3 @@ The name **EkkoR** is inspired by the League of Legends champion **Ekko**, the B
 3. Enable **Developer mode** (top right corner).
 4. Click **Load unpacked** and select this folder.
 5. You're ready to shatter time!
-
-## 📜 License
-
-MIT License.
