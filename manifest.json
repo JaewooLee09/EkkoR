@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "EkkoR",
+  "version": "1.0",
+  "description": "Returns you to your last read comment after clicking a timestamp on YouTube.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}
